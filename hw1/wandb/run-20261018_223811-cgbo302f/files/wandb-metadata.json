@@ -1,0 +1,33 @@
+{
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "CPython 3.11.15",
+  "startedAt": "2026-10-18T14:38:11.081572Z",
+  "args": [
+    "--policy-type",
+    "flow"
+  ],
+  "program": "/Users/shouzheng/projects/github/cs285/hw1/src/hw1_imitation/train.py",
+  "codePath": "hw1/src/hw1_imitation/train.py",
+  "codePathLocal": "src/hw1_imitation/train.py",
+  "git": {
+    "remote": "https://github.com/ShouZhengAI/cs285.git",
+    "commit": "59e40fc035374fd9b29195a4c3bef02690b515b5"
+  },
+  "email": "duckypuddle78@gmail.com",
+  "root": "/Users/shouzheng/projects/github/cs285/hw1",
+  "host": "dp0812.local",
+  "executable": "/Users/shouzheng/projects/github/cs285/hw1/.venv/bin/python3",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "994610155520",
+      "used": "620040232960"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {},
+  "writerId": "6bw26af7ctpidwxfx73m9vkdx32epx2k"
+}
