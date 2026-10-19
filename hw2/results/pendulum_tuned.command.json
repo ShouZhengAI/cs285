@@ -1,0 +1,20 @@
+[
+  "/Users/shouzheng/projects/github/cs285/hw2/.venv/bin/python",
+  "src/scripts/run.py",
+  "--env_name",
+  "InvertedPendulum-v4",
+  "-n",
+  "100",
+  "-b",
+  "1000",
+  "-eb",
+  "1000",
+  "-rtg",
+  "-na",
+  "--discount",
+  "0.99",
+  "-lr",
+  "0.01",
+  "--exp_name",
+  "pendulum_tuned"
+]

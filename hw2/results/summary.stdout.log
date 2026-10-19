@@ -1,0 +1,611 @@
+[
+  {
+    "name": "cartpole_lb_na",
+    "seed": 1,
+    "directory": "exp/CartPole-v0_cartpole_lb_na_sd1_20261019_173633",
+    "iterations": 100,
+    "env_steps": 401003,
+    "final_return": 200.0,
+    "mean_logged_return": 186.76253115,
+    "best_return": 200.0,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "mean": 200.0,
+      "std": 0.0
+    }
+  },
+  {
+    "name": "cartpole_lb_rtg_na",
+    "seed": 1,
+    "directory": "exp/CartPole-v0_cartpole_lb_rtg_na_sd1_20261019_173633",
+    "iterations": 100,
+    "env_steps": 404738,
+    "final_return": 200.0,
+    "mean_logged_return": 185.70366889999997,
+    "best_return": 200.0,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "mean": 200.0,
+      "std": 0.0
+    }
+  },
+  {
+    "name": "cartpole_lb_rtg",
+    "seed": 1,
+    "directory": "exp/CartPole-v0_cartpole_lb_rtg_sd1_20261019_173633",
+    "iterations": 100,
+    "env_steps": 404642,
+    "final_return": 200.0,
+    "mean_logged_return": 181.86610665,
+    "best_return": 200.0,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "mean": 200.0,
+      "std": 0.0
+    }
+  },
+  {
+    "name": "cartpole_lb",
+    "seed": 1,
+    "directory": "exp/CartPole-v0_cartpole_lb_sd1_20261019_173633",
+    "iterations": 100,
+    "env_steps": 405514,
+    "final_return": 194.66667,
+    "mean_logged_return": 174.40426189,
+    "best_return": 200.0,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        179.0,
+        200.0,
+        190.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "mean": 196.9,
+      "std": 6.670082458260917
+    }
+  },
+  {
+    "name": "cartpole_na",
+    "seed": 1,
+    "directory": "exp/CartPole-v0_cartpole_na_sd1_20261019_173656",
+    "iterations": 100,
+    "env_steps": 105315,
+    "final_return": 200.0,
+    "mean_logged_return": 174.17252788000002,
+    "best_return": 200.0,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "mean": 200.0,
+      "std": 0.0
+    }
+  },
+  {
+    "name": "cartpole_rtg_na",
+    "seed": 1,
+    "directory": "exp/CartPole-v0_cartpole_rtg_na_sd1_20261019_173657",
+    "iterations": 100,
+    "env_steps": 103677,
+    "final_return": 200.0,
+    "mean_logged_return": 174.87835724,
+    "best_return": 200.0,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "mean": 200.0,
+      "std": 0.0
+    }
+  },
+  {
+    "name": "cartpole_rtg",
+    "seed": 1,
+    "directory": "exp/CartPole-v0_cartpole_rtg_sd1_20261019_173645",
+    "iterations": 100,
+    "env_steps": 103746,
+    "final_return": 200.0,
+    "mean_logged_return": 169.47189445000004,
+    "best_return": 200.0,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "mean": 200.0,
+      "std": 0.0
+    }
+  },
+  {
+    "name": "cartpole",
+    "seed": 1,
+    "directory": "exp/CartPole-v0_cartpole_sd1_20261019_173645",
+    "iterations": 100,
+    "env_steps": 105234,
+    "final_return": 200.0,
+    "mean_logged_return": 110.21107758999997,
+    "best_return": 200.0,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        184.0
+      ],
+      "mean": 198.4,
+      "std": 4.8
+    }
+  },
+  {
+    "name": "cheetah_baseline_bgs1",
+    "seed": 1,
+    "directory": "exp/HalfCheetah-v4_cheetah_baseline_bgs1_sd1_20261019_173658",
+    "iterations": 100,
+    "env_steps": 500000,
+    "final_return": 84.458626,
+    "mean_logged_return": -363.3760036280001,
+    "best_return": 305.57358,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        -64.66141510009766,
+        4.35853385925293,
+        214.5933380126953,
+        242.88645935058594,
+        48.71114730834961,
+        117.60708618164062,
+        -3.088581085205078,
+        -99.75785064697266,
+        99.45577239990234,
+        119.49099731445312
+      ],
+      "mean": 67.95954875946045,
+      "std": 106.48668714607864
+    }
+  },
+  {
+    "name": "cheetah_baseline_seed1",
+    "seed": 1,
+    "directory": "exp/HalfCheetah-v4_cheetah_baseline_sd1_20261019_173658",
+    "iterations": 100,
+    "env_steps": 500000,
+    "final_return": 269.41495,
+    "mean_logged_return": -207.91229838000004,
+    "best_return": 335.943,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        264.02001953125,
+        282.2387390136719,
+        177.57933044433594,
+        392.0203552246094,
+        312.4290771484375,
+        398.5566101074219,
+        303.3486633300781,
+        180.88092041015625,
+        280.69451904296875,
+        139.38589477539062
+      ],
+      "mean": 273.115412902832,
+      "std": 82.50746976957086
+    }
+  },
+  {
+    "name": "cheetah_baseline_seed2",
+    "seed": 2,
+    "directory": "exp/HalfCheetah-v4_cheetah_baseline_sd2_20261019_181031",
+    "iterations": 100,
+    "env_steps": 500000,
+    "final_return": 114.720825,
+    "mean_logged_return": -316.85562876000006,
+    "best_return": 114.720825,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        -96.05213928222656,
+        -218.8118896484375,
+        -5.134361267089844,
+        67.99858093261719,
+        203.3379364013672,
+        209.35198974609375,
+        57.155609130859375,
+        45.917701721191406,
+        -35.71531677246094,
+        -228.54339599609375
+      ],
+      "mean": -0.04952850341796875,
+      "std": 143.46157650696296
+    }
+  },
+  {
+    "name": "cheetah_baseline",
+    "seed": 3,
+    "directory": "exp/HalfCheetah-v4_cheetah_baseline_sd3_20261019_181149",
+    "iterations": 100,
+    "env_steps": 500000,
+    "final_return": 334.47452,
+    "mean_logged_return": -207.47574317000002,
+    "best_return": 450.4354,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        404.2238464355469,
+        371.8707275390625,
+        384.6369323730469,
+        394.3673095703125,
+        346.14251708984375,
+        282.2766418457031,
+        326.95989990234375,
+        383.7138671875,
+        334.79095458984375,
+        458.260009765625
+      ],
+      "mean": 368.7242706298828,
+      "std": 46.15310999916567
+    }
+  },
+  {
+    "name": "cheetah",
+    "seed": 1,
+    "directory": "exp/HalfCheetah-v4_cheetah_sd1_20261019_173658",
+    "iterations": 100,
+    "env_steps": 500000,
+    "final_return": -160.62074,
+    "mean_logged_return": -590.8750568999999,
+    "best_return": -160.62074,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        -307.7056884765625,
+        -209.4581298828125,
+        -89.60087585449219,
+        -135.4261474609375,
+        -146.74114990234375,
+        -147.30531311035156,
+        -161.58872985839844,
+        -130.25094604492188,
+        -187.258544921875,
+        -107.58257293701172
+      ],
+      "mean": -162.29180984497071,
+      "std": 58.72440837619112
+    }
+  },
+  {
+    "name": "pendulum",
+    "seed": 1,
+    "directory": "exp/InvertedPendulum-v4_pendulum_sd1_20261019_181547",
+    "iterations": 100,
+    "env_steps": 506839,
+    "final_return": 78.15385,
+    "mean_logged_return": 123.65689752999998,
+    "best_return": 1000.0,
+    "first_1000_steps": 384573,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        160.0,
+        69.0,
+        69.0,
+        50.0,
+        83.0,
+        66.0,
+        138.0,
+        84.0,
+        160.0,
+        79.0
+      ],
+      "mean": 95.8,
+      "std": 38.77060742366567
+    }
+  },
+  {
+    "name": "pendulum_tuned_b500",
+    "seed": 1,
+    "directory": "exp/InvertedPendulum-v4_pendulum_tuned_b500_sd1_20261019_181051",
+    "iterations": 100,
+    "env_steps": 67777,
+    "final_return": 49.47619,
+    "mean_logged_return": 320.91666391,
+    "best_return": 1000.0,
+    "first_1000_steps": 31880,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        59.0,
+        33.0,
+        28.0,
+        26.0,
+        24.0,
+        60.0,
+        49.0,
+        30.0,
+        75.0,
+        46.0
+      ],
+      "mean": 43.0,
+      "std": 16.607227342335023
+    }
+  },
+  {
+    "name": "pendulum_tuned",
+    "seed": 1,
+    "directory": "exp/InvertedPendulum-v4_pendulum_tuned_sd1_20261019_181617",
+    "iterations": 100,
+    "env_steps": 110284,
+    "final_return": 174.71428,
+    "mean_logged_return": 476.89981090000003,
+    "best_return": 1000.0,
+    "first_1000_steps": 49239,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        189.0,
+        10.0,
+        253.0,
+        50.0,
+        128.0,
+        196.0,
+        278.0,
+        592.0,
+        386.0,
+        181.0
+      ],
+      "mean": 226.3,
+      "std": 159.53623412880222
+    }
+  },
+  {
+    "name": "lunar_lander_lambda0.95",
+    "seed": 1,
+    "directory": "exp/LunarLander-v2_lunar_lander_lambda0.95_sd1_20261019_180945",
+    "iterations": 200,
+    "env_steps": 424568,
+    "final_return": -58.093864,
+    "mean_logged_return": -49.22695258410005,
+    "best_return": 119.002014,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        -15.487445831298828,
+        -73.04779052734375,
+        -52.149017333984375,
+        -16.434837341308594,
+        -20.960830688476562,
+        -38.02516174316406,
+        -5.823020935058594,
+        -49.953365325927734,
+        -26.06659507751465,
+        -30.109947204589844
+      ],
+      "mean": -32.805801200866696,
+      "std": 19.503462694789633
+    }
+  },
+  {
+    "name": "lunar_lander_lambda0.98",
+    "seed": 1,
+    "directory": "exp/LunarLander-v2_lunar_lander_lambda0.98_sd1_20261019_180945",
+    "iterations": 200,
+    "env_steps": 436738,
+    "final_return": 93.764755,
+    "mean_logged_return": 4.477937883950006,
+    "best_return": 226.48965,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        148.54177856445312,
+        64.25624084472656,
+        35.476890563964844,
+        151.40277099609375,
+        142.14108276367188,
+        132.08084106445312,
+        126.50198364257812,
+        82.1084976196289,
+        138.9649658203125,
+        119.53410339355469
+      ],
+      "mean": 114.10091552734374,
+      "std": 37.65421740803151
+    }
+  },
+  {
+    "name": "lunar_lander_lambda0.99",
+    "seed": 1,
+    "directory": "exp/LunarLander-v2_lunar_lander_lambda0.99_sd1_20261019_180946",
+    "iterations": 200,
+    "env_steps": 445191,
+    "final_return": -32.30513,
+    "mean_logged_return": -11.297265218000007,
+    "best_return": 214.37456,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        15.6434326171875,
+        -49.92155456542969,
+        -62.26375198364258,
+        0.7809982299804688,
+        -26.402191162109375,
+        -2.5239639282226562,
+        8.736473083496094,
+        -10.937049865722656,
+        -84.24545288085938,
+        23.977951049804688
+      ],
+      "mean": -18.71551094055176,
+      "std": 34.180680869985224
+    }
+  },
+  {
+    "name": "lunar_lander_lambda0",
+    "seed": 1,
+    "directory": "exp/LunarLander-v2_lunar_lander_lambda0_sd1_20261019_173658",
+    "iterations": 200,
+    "env_steps": 436499,
+    "final_return": -96.17857,
+    "mean_logged_return": -115.788717865,
+    "best_return": 114.950424,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        -164.93771362304688,
+        -222.18450927734375,
+        -125.403076171875,
+        -224.77725219726562,
+        244.78094482421875,
+        -241.078857421875,
+        -191.59075927734375,
+        -93.28215789794922,
+        -244.44482421875,
+        5.837554931640625
+      ],
+      "mean": -125.70806503295898,
+      "std": 144.23197621047302
+    }
+  },
+  {
+    "name": "lunar_lander_lambda1",
+    "seed": 1,
+    "directory": "exp/LunarLander-v2_lunar_lander_lambda1_sd1_20261019_181302",
+    "iterations": 200,
+    "env_steps": 442541,
+    "final_return": 45.992813,
+    "mean_logged_return": -1.1818045979999954,
+    "best_return": 198.73502,
+    "first_1000_steps": null,
+    "inference": {
+      "seed": 101,
+      "episodes": 10,
+      "returns": [
+        11.135490417480469,
+        177.2503204345703,
+        254.40496826171875,
+        38.16050720214844,
+        64.73912811279297,
+        17.704544067382812,
+        254.17445373535156,
+        240.83419799804688,
+        47.65361404418945,
+        120.07879638671875
+      ],
+      "mean": 122.61360206604004,
+      "std": 95.48768875132322
+    }
+  }
+]

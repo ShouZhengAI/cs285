@@ -1,0 +1,12 @@
+[
+  "/Users/shouzheng/projects/github/cs285/hw2/.venv/bin/python",
+  "src/scripts/run.py",
+  "--env_name",
+  "CartPole-v0",
+  "-n",
+  "100",
+  "-b",
+  "1000",
+  "--exp_name",
+  "cartpole"
+]

@@ -1,0 +1,16 @@
+{
+  "completed_runs": 21,
+  "archive_bytes": 2282145,
+  "required_experiments_present": true,
+  "csv_rows_match_iterations": true,
+  "finite_metrics": true,
+  "increasing_training_steps": true,
+  "performance_requirements": {
+    "cartpole_small": true,
+    "cartpole_large": true,
+    "cheetah_baseline": true,
+    "lunar_lander": true,
+    "pendulum_under_100k": true
+  },
+  "archive_integrity": "passed"
+}

@@ -1,0 +1,8 @@
+START cartpole
+START cartpole_rtg
+DONE cartpole_rtg exit=0
+START cartpole_na
+DONE cartpole exit=0
+START cartpole_rtg_na
+DONE cartpole_rtg_na exit=0
+DONE cartpole_na exit=0

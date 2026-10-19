@@ -1,0 +1,37 @@
+START cartpole
+START cartpole_rtg
+START cartpole_rtg_na
+START cartpole_na
+DONE cartpole_rtg exit=1
+START cartpole_lb
+DONE cartpole_rtg_na exit=1
+START cartpole_lb_rtg
+DONE cartpole_na exit=1
+START cartpole_lb_na
+DONE cartpole exit=1
+START cartpole_lb_rtg_na
+DONE cartpole_lb_na exit=0
+START cheetah
+DONE cartpole_lb exit=0
+START cheetah_baseline
+DONE cartpole_lb_rtg_na exit=0
+START cheetah_baseline_bgs1
+DONE cartpole_lb_rtg exit=0
+START lunar_lander_lambda0
+DONE cheetah exit=0
+START lunar_lander_lambda0.95
+DONE cheetah_baseline_bgs1 exit=0
+START lunar_lander_lambda0.98
+DONE cheetah_baseline exit=0
+START lunar_lander_lambda0.99
+DONE lunar_lander_lambda0 exit=0
+START lunar_lander_lambda1
+DONE lunar_lander_lambda0.99 exit=0
+START pendulum
+DONE pendulum exit=0
+START pendulum_tuned
+DONE lunar_lander_lambda0.98 exit=0
+DONE pendulum_tuned exit=0
+DONE lunar_lander_lambda0.95 exit=0
+DONE lunar_lander_lambda1 exit=0
+Some experiments failed; see results/*.stdout.log
